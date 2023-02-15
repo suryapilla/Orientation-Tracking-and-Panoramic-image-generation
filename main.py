@@ -12,8 +12,7 @@ from jax import value_and_grad
 
 # Read the data
 # Given input data path
-# path = str(input("Enter the path to data folder: "))
-path = r"/home/surya/Desktop/ucsd/ECE276A/PR1/data"
+path = str(input("Enter the path to data folder: "))
 dataset = "2"
 cfile = path + "/cam/cam" + dataset + ".p"
 ifile = path + "/imu/imuRaw" + dataset + ".p"
